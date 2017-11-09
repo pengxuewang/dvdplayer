@@ -165,6 +165,7 @@ public class Main extends Activity {
 
         //注册耳机插入广播
         //在本地添加的注释 用来测试git pull 和git push
+		//在本地的pxw分支中添加   
         registerHeadsetPlugReceiver();
 
         serialport = SerialPort.getInstance();
