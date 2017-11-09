@@ -164,6 +164,7 @@ public class Main extends Activity {
         hiddenVirtualkeys();
 
         //注册耳机插入广播
+        //在本地添加的注释 用来测试git pull 和git push
         registerHeadsetPlugReceiver();
 
         serialport = SerialPort.getInstance();
